@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+
+header ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/*header div{
+    display: inline-block;
+}*/
+
+.list-position-right{
+    position: relative;
+    right: 0;
+}
+
+/* Utilities */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
