@@ -37,7 +37,8 @@
   
   h2 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
   
   h3 {
@@ -53,6 +54,10 @@
       line-height: 32px;
      
       
+  }
+
+  img{
+    max-width: 100%;
   }
 /************************************************
 * Classi layout
@@ -107,7 +112,15 @@
     height: 100px;
     border: 1px solid;
   }
+ 
+  .partner-div{
+    width: 55%;
+  }
 
+  .partner-div-2{
+    margin-left: 20px;
+    max-width: 43%;
+  }
 
 /* INIZIO HEADER */
 
@@ -162,9 +175,19 @@ header ul li a{
 .blue-btn{
     background-color: #0061FF;
     color: white;
-    line-height: 4vh;
+    line-height: 30px;
     padding: 0 30px;
     border: none;
+    font-weight: 600;
+    display: block;
+}
+
+.white-btn{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    padding: 0 30px;
+    border: 1px solid grey;
     font-weight: 600;
     display: block;
 }
@@ -197,6 +220,7 @@ header ul li a{
   padding: 50px;
   padding-top: 0;
   margin-top: 25px;
+  margin-bottom: 50px
 }
 
 .panel-name{
@@ -205,6 +229,7 @@ header ul li a{
   margin-left: -50px;
   margin-right: -50px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .panel ul{
@@ -219,4 +244,15 @@ span.color-grey{
   font-size:smaller;
 }
 
+.panel-enterprise-btn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: inline-block;
+}
+
+.card{
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
 
