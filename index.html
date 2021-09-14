@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            
-                <img src="img/logo-small.png" alt="logo">
+        <nav class="clearfix">
+            <div class="float-left">
                 <ul>
+                    <li><a href="#"><img src="img/logo-small.png" alt="logo"></a></li>
                     <li><a href="#">Perchè Dropbox?</a></li>
                     <li><a href="#">Funzioni</a></li>
                     <li><a href="#">Piani e prezzi</a></li>
                 </ul>
+            </div>
             
-            
-           
-                <ul class="list-position-right">
+            <div class="float-right">
+                <ul>
                     <li><a href="#">Supporto</a></li>
                     <li><a href="#">Contatta l'ufficio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
                 </ul>
-                <button>Inizia</button>
-            
+                <button class="nav-btn blue-button">Inizia</button>
+            </div>
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section class="hero-container">
+            <div class="hero-container-div container-large clearfix">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="float-left col_3_9">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti
+                        e collaboratori sono accessibili dallo stesso posto.
+                        Dropbox Business è più di uno spazio di archiviazione sicuro: 
+                        è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente</p>
+                        <button class="blue-button">Inizia la tua prova gratuita</button>
+                        <p>Annulla in qualsiasi momento</p>
+                        <span><i class="fas fa-arrow-down"></i></span>
+                </div>
+                <div class="float-left col_6_9">
+                    <img class="hero-img" src="img/jumbo.png" alt="hero">
+                </div>
+                    
+                
+            </div>
+        </section>
+    </main>
 
     <footer></footer>
 </body>
