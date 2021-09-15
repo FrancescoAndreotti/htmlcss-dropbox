@@ -290,6 +290,7 @@ span.color-grey{
   float: left;
   padding: 40px;
   background-color: #f5f5f5;
+  height: 480px;
 }
 
 .testimonianza img{
@@ -342,4 +343,51 @@ span.color-grey{
   right: 0;
   margin: auto;
   width: 70%;
+}
+
+/* Fine selettori square */
+
+.prova-dropbox{
+  width: 100%;
+  background-color: #b4d0e7;
+  margin-top: -50px;
+  padding-top: 100px;
+}
+
+.container-titolo-prova{
+  max-width: 50%;
+}
+.titolo-prova{
+  color: #61082b;
+}
+
+.prova-btn{
+  margin-top: 55px;
+}
+
+/* faq style */
+
+.accordion-container{
+  list-style-type: none;
+}
+
+.accordion-item{
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.accordion-item-icon{
+  position: absolute;
+  right: 20px;
+}
+.accordion-item:focus .accordion-item-content{
+  display: block;
+
+}
+
+.accordion-item-content{
+  display: none;
 }
