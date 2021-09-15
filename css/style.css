@@ -250,3 +250,96 @@ span.color-grey{
   margin-bottom: 40px;
 }
 
+/* Section square */
+
+.section-square-container{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.square-container{
+  width: 30%;
+  float: left;
+  height: 30vh;
+}
+
+.square-container-2{
+  width: 30%;
+  float: right;
+  height: 30vh;
+}
+
+.square{
+  max-width: 50%;
+  float: left;
+  height: 240px;
+  width: 240px;
+  position: relative;
+}
+
+.square-2{
+  max-width: 50%;
+  float: left;
+  height: 240px;
+  width: 240px;
+  position: relative;
+}
+
+.testimonianza{
+  max-width: 40%;
+  float: left;
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.testimonianza img{
+  width: 20%;
+  margin-bottom: 100px;
+}
+
+.testimonianza p{
+  margin-bottom: 30px;
+}
+
+.square:nth-child(1){
+  background-color: #a2d39b;
+}
+
+.square:nth-child(2){
+  background-color: #61082b;
+}
+
+.square:nth-child(3){
+  background-color: #0093ce;
+}
+
+.square:nth-child(4){
+  background-color: #ff1c1c;
+}
+
+.square-2:nth-child(1){
+  background-color: #d5001f;
+}
+
+.square-2:nth-child(2){
+  background-color: #b4d0e7;
+}
+
+.square-2:nth-child(3){
+  background-color: #0d2481;
+}
+
+.square-2:nth-child(4){
+  background-color: #ffd830;
+}
+
+.square img, .square-2 img{
+  filter: invert(100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 70%;
+}
